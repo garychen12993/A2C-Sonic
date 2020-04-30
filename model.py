@@ -286,7 +286,7 @@ def learn(policy,
 
     # Load the model
     # If you want to continue training
-    load_path = "./models/260/model.ckpt"
+    load_path = "./models/370/model.ckpt"
     model.load(load_path)
 
     # Instantiate the runner object
@@ -377,7 +377,7 @@ def play(policy, env):
                 max_grad_norm=0)
     
     # Load the model
-    load_path = "./models/260/model.ckpt"
+    load_path = "./models/370/model.ckpt"
     model.load(load_path)
 
     obs = env.reset()
